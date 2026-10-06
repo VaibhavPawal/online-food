@@ -1,0 +1,242 @@
+#nav{
+
+    background-color: red;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 2%;
+    color: white;
+    gap: 20px;
+    text-decoration: none;
+    font-size: large;
+    
+}
+
+ 
+nav a:hover {
+    color: yellow;
+} 
+
+
+
+#hero{
+    text-align: center;
+    padding: 50px;
+    background-color: lightblue; 
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#hero h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#hero p{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+#hero button{
+    padding: 10px 20px ;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+}
+
+
+h2{
+    text-align: center;
+}
+#cart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    width: 900px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+#pizza img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#pizza h3{
+    font-size: 25px;
+    margin: 10px 0 5px;
+}
+
+#pizza p {
+    font-size: 20px;
+    margin: 5px 0 10px;
+}
+
+#pizza button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+#burger img{
+     width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+   
+}
+
+
+#burger h3{
+
+    font-size: 25px;
+    margin: 10px 0 0;
+}
+
+#burger p {
+    font-size: 23px;
+    margin: 0 0 10px;
+}
+
+
+#burger button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin: 0 0 10px;
+    
+    
+}
+
+
+#biryani img{
+     width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#biryani h3{
+
+    
+    font-size: 25px;
+    margin: 10px 0 5px;
+}
+
+#biryani p {
+    font-size: 23px;
+    margin: 5px 0 10px;
+}
+
+#biryani button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    
+}
+
+#sandwhich img{
+     width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#sandwhich h3{
+     font-size: 25px;
+    margin: 10px 0 5px;
+}
+
+#sandwhich p {
+    font-size: 23px;
+    margin: 5px 0 10px;
+}
+
+#sandwhich button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+#pasta img{
+     width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#pasta h3{
+     font-size: 25px;
+    margin: 10px 0 5px;
+}
+
+#pasta p {
+    font-size: 20px;
+    margin: 5px 0 10px;
+}
+
+#pasta button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+#cake img{
+     width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#cake h3{
+     font-size: 25px;
+    margin: 10px 0 5px;
+}
+
+#cake p {
+    font-size: 23px;
+    margin: 5px 0 10px;
+}
+
+#cake button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    }
+
+
+
+#pizza,
+#burger,
+#biryani,
+#sandwhich,
+#pasta,
+#cake {
+    width: 250px;}
